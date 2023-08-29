@@ -1,0 +1,30 @@
+
+
+.btn-signup{
+   width: var(--button-width);
+   height: var(--button-height);
+   background-color:var(--primary-color) ;
+   color: var(--white);
+   margin-top: 10px; 
+}
+
+
+
+.btn-content-button{
+   width: var(--section-button-width);
+   height: var(--section-button-height);
+   background-color:var(--secondory-color) ;
+   color: var(--white);
+   margin: 77px 0 89px 0 ;
+}
+
+.btn-add-to-cart{
+  width: 150px;
+  height: 54px;
+  color: var(--white);
+  background-color: var(--primary-color);
+  opacity: 0.83; 
+  text-align: center;
+  padding-bottom: 3px;
+  float: right;
+}

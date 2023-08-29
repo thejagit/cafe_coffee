@@ -1,0 +1,339 @@
+@import url("button.css"); /* Using a url */
+@import url("nav_bar.css"); /* Using a url */
+
+:root{
+/* teame colors */
+--primary-color:#684545;
+--secondory-color:#C7A17A;
+--tertary-color:#E7E5E3;
+
+--white:#ffffff;
+--black:#000000;
+
+
+/* text colors */
+--primary-text:#5C4422;
+--secondory-text:#975f46;
+--tertiary-text:#787879;
+
+--button-width:130px;
+--button-height:40px;
+
+--section-button-width:192;
+--section-button-height:52;
+
+--rectangle-width:430px;
+--rectangle-height:659px;
+}
+
+body {margin: 0;}
+
+.theme-container {
+    padding:0 7.375em;
+    margin-top: 4.25em;
+    background-color:var(--white);
+    border: 1px solid rgba(0, 123, 255, .2);
+}
+
+.section-theme-container {
+    /* padding:0 7.375em;
+    margin-top: 4.25em; */
+    background-color:var(--white);
+    border: 1px solid rgba(0, 123, 255, .2);
+}
+
+
+.heading-topics{
+  color: var(--secondory-color);
+  font-size: 1.5em;
+  
+}
+ 
+.section02-col-outline{
+  margin-top: 5em;
+}
+.sub-heading-topics{
+  font-size: 3em;
+  color:var(--primarytext);
+  font-weight:600;
+  margin-top: 40px;
+  
+}
+
+.section-content{
+  margin: 76px 47px 0 0;
+  color: var(--tertiary-text);
+  font-size: 1.25em;
+  font-weight: 400;
+  /* white-space: nowrap;
+  overflow:break-word;
+  text-overflow:clip; */
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.behind-rectangle{
+  margin-top: 68px;
+  width: var(--rectangle-width);
+  height: var(--rectangle-height);
+  background-color:#6E3905;
+  z-index: -1;
+  margin-right: 41px;
+  float: right;
+  clear: right;
+}
+
+.infront-image{
+  margin-left: 41px;
+  margin-top: 41px;
+  width: var(--rectangle-width);
+  height: var(--rectangle-height);;
+  z-index: 1;
+}
+
+.section-margin{
+  margin-bottom: 89px;
+}
+ /*=-=-=-=-=-=-=-=-=-=-=-=-=-=- SECTION 02  =-=-=-=-=-=-=-=-=-=-=-=-=-=-*/
+.section-outline-wrap{
+  background-color: var(--tertary-color);
+  padding: 0 122px;
+}
+
+.section02-row-outline{
+  padding-top: 72px;
+  padding-bottom: 49px;
+}
+
+.section02-col-outline{
+  margin: 50px 0 0 68px;
+}
+
+.section02-heading-topics{
+  color: var(--secondory-color);
+  font-size: 1.5em;
+   margin-left: 62px;
+}
+ 
+.section02-sub-heading-topics{
+  font-size: 3em;
+  color:var(--primarytext);
+  font-weight:600;
+  margin: 40px 0 0 62px;
+
+}
+
+
+.section02-section-content{
+  margin: 76px 47px 0 62px;
+  color: var(--tertiary-text);
+  font-size: 1.25em;
+  font-weight: 400;
+  /* white-space: nowrap;
+  overflow:break-word;
+  text-overflow:clip; */
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.section02-margin{
+  margin-left: 62px;
+}
+.behind-rectangle-02{
+  margin-left: 41px;
+  margin-top: 41px;
+  width: var(--rectangle-width);
+  height: var(--rectangle-height);
+  background-color:#855A25;
+  z-index: 1;
+}
+
+.infront-image-02{
+ 
+  /* margin-top: 72px; */
+  width: var(--rectangle-width);
+  height: var(--rectangle-height);
+  z-index: -1;
+  margin-right: 41px;
+  float: left;
+  clear: right;
+}
+
+
+.category-coffee ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 1px;
+  /* overflow: hidden; */
+  text-align: center;
+   
+}
+
+.category-coffee li {
+  float: left;
+  padding:0 64px 0 0;
+  font-size: 24px;
+  color: var(--black);
+  position:relative;
+}
+
+#cappuccino{
+  color: var(--secondory-text);
+}
+
+.category-coffee ul li::before {
+  content: "\2022";
+  color: var(--primary-color);
+  font-weight: bolder;
+  font-size: 28px;
+  display: inline-block; 
+  width: 1em;
+  
+  text-decoration: none;
+}
+
+
+ /*=-=-=-=-=-=-=-=-=-=-=-=-=-=- SECTION 03  =-=-=-=-=-=-=-=-=-=-=-=-=-=-*/
+
+ .section03-outline-wrap{
+  background-color: var(--white);
+  padding: 0 122px;
+}
+.section03-sub-heading-topics{
+  font-size: 3em;
+  color:var(--primarytext);
+  font-weight:600;
+  margin-top: 90px;
+  text-align: center;
+}
+
+.section03-section-content{
+  margin: 0 18%;
+  margin-top: 76px;
+  margin-bottom: 77px;
+  color: var(--tertiary-text);
+  font-size: 1.25em;
+  font-weight: 400;
+}
+
+.card-outline{
+  width: 90%;
+  border: 2px solid rgba(0, 0, 0, .5);
+  padding-bottom:28px;
+   height: 100%;
+}
+
+.custom-card-title{
+  font-size:1.5em ;
+  color: var(--secondory-text);
+  margin-top: 9px;
+}
+
+.custom-card-text{
+  font-size: 1.1em;
+  color: var(--black);
+  margin-top: 34px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.card-rating-outline{
+margin-top: 22px;
+}
+
+.card-rating{
+  color: var(--black);
+  font-weight: 400;
+  opacity: 0.8;
+  
+}
+
+.card-pricing{
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--black);
+  
+}
+
+[class*="card-pricing"] {
+  margin-bottom: 20px;
+}
+
+/* .carousel-item .card{
+  height:max-content;
+} */
+
+.carousel-dark .carousel-indicators [data-bs-target] {
+    background-color:var(--primary-color);
+    width: 30px;
+    height: 4px;
+}
+
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-right: 15%;
+    margin-bottom: -3rem;
+    margin-left: 15%;
+}
+.carousel-control-prev [data-bs-target]{
+  color: var(--primary-color);
+}
+
+
+
+ /*=-=-=-=-=-=-=-=-=-=-=-=-=-=- SECTION 04  =-=-=-=-=-=-=-=-=-=-=-=-=-=-*/
+.special-card-title{
+  font-size:1.5em ;
+  color: var(--black);
+  margin-top: 9px;
+}
+
+.special-card-text{
+  font-size: 1.2em;
+  color: var(--black);
+  opacity: 0.8;
+  margin-top: 34px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+ /*=-=-=-=-=-=-=-=-=-=-=-=-=-=- SECTION 05  =-=-=-=-=-=-=-=-=-=-=-=-=-=-*/
+
+ .infront-image-05{
+ 
+  margin-top: 72px;
+  width: var(--rectangle-width);
+  height: var(--rectangle-height);
+  z-index: -1;
+  margin-right: 41px;
+  float: left;
+  clear: right;
+}
+
+.behind-rectangle-02{
+
+  margin: 123px 0 72px 41px;
+  width: var(--rectangle-width);
+  height: var(--rectangle-height);
+  background-color:#92522F;
+  z-index: 1;
+}
+
+.section05-outline-wrap{
+  background-image: url(../images/our-offers.png);
+  padding: 0 122px;
+  margin-top: 90px;
+}
+
+.heading-topics05{
+  color: var(--secondory-color);
+  font-size: 1.5em;
+  margin-top: 109px;
+}
