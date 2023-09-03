@@ -308,22 +308,23 @@ margin-top: 22px;
 
  .infront-image-05{
  
-  margin-top: 72px;
+  margin-top: -41px;
   width: var(--rectangle-width);
-  height: var(--rectangle-height);
+  height:524px;
   z-index: -1;
   margin-right: 41px;
-  float: left;
+  float: right;
   clear: right;
 }
 
-.behind-rectangle-02{
-
-  margin: 123px 0 72px 41px;
+.behind-rectangle-05{
+  margin: 82px 0 72px 0;
   width: var(--rectangle-width);
-  height: var(--rectangle-height);
+  height: 524px;
   background-color:#92522F;
   z-index: 1;
+  float: right;
+
 }
 
 .section05-outline-wrap{
@@ -337,3 +338,68 @@ margin-top: 22px;
   font-size: 1.5em;
   margin-top: 109px;
 }
+
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-=- SECTION 06  =-=-=-=-=-=-=-=-=-=-=-=-=-=-*/
+
+
+.section06-section-content{
+  margin: 0 18%;
+  margin-top: 76px;
+  margin-bottom: 77px;
+  color: var(--tertiary-text);
+  font-size: 1.25em;
+  font-weight: 400;
+  text-align: center;
+}
+
+ .section07-outline-wrap{
+  margin-bottom: 101px;
+}
+
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-=- FOOTER  =-=-=-=-=-=-=-=-=-=-=-=-=-=-*/
+
+.footer-wrap{
+  margin:0 3.1%;
+  text-align: center;
+}
+
+.footer-name{
+  font-size: 1.5em;
+  color: var(--primary-text);
+  font-weight: bold;
+  margin-bottom: 41px;
+}
+
+.footer-address,.footer-working-days,.footer-contact{
+color: var(--tertiary-text);
+font-size: 1em;
+font-weight: 400;
+margin-bottom: 17px;
+}
+
+.footer-copy-right{
+  margin: 55px  0 70px 0;
+  font-size: 1em;
+  color: var(--tertiary-text);
+  opacity: 0.55;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.footer-content{
+  font-size: 1.25em;
+  color: var(--primary-text);
+  font-weight: bolder;
+  margin-bottom: 41px;
+}
+.footer-working-info,.footer-contact-info{
+  font-size: 1.25em;
+  color: var(--secondory-text);
+  font-weight: bolder;
+  margin-bottom: 41px;
+}
+
+.icon-social-media{
+  margin-right: 29px;
+}
+
