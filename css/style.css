@@ -2,7 +2,7 @@
 @import url("nav_bar.css"); /* Using a url */
 
 :root{
-/* teame colors */
+/* theame colors */
 --primary-color:#684545;
 --secondory-color:#C7A17A;
 --tertary-color:#E7E5E3;
@@ -32,14 +32,14 @@ body {margin: 0;}
     padding:0 7.375em;
     margin-top: 4.25em;
     background-color:var(--white);
-    border: 1px solid rgba(0, 123, 255, .2);
+    /* border: 1px solid rgba(0, 123, 255, .2); */
 }
 
 .section-theme-container {
     /* padding:0 7.375em;
     margin-top: 4.25em; */
     background-color:var(--white);
-    border: 1px solid rgba(0, 123, 255, .2);
+    /* border: 1px solid rgba(0, 123, 255, .2); */
 }
 
 
@@ -340,6 +340,33 @@ margin-top: 22px;
 }
 
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=- SECTION 06  =-=-=-=-=-=-=-=-=-=-=-=-=-=-*/
+.customer-card{
+  width: 90%;
+  border: 2px solid var(--secondory-color);
+  background-color: var(--tertary-color);
+
+   height: 100%;
+}
+.custom-card-content{
+  width: 100%;
+  background-color: var(--white);
+  border-radius:0 0 115px 0;
+  height: 100%;
+}
+/* .carousel-control-prev-icon{
+  background-color: #c593d8;
+ 
+} */
+.customer-name{
+  font-size: 1.2em;
+  color: rgba(var(--black), .8);
+  font-weight:300;
+  margin-top: 84px;
+}
+
+svg .customer-rating-star {
+ margin-bottom: 35px;
+}
 
 
 .section06-section-content{
@@ -354,6 +381,7 @@ margin-top: 22px;
 
  .section07-outline-wrap{
   margin-bottom: 101px;
+  --bs-gutter-x: 0;
 }
 
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=- FOOTER  =-=-=-=-=-=-=-=-=-=-=-=-=-=-*/

@@ -8,7 +8,12 @@
    margin-top: 10px; 
 }
 
-
+.btn-signup:hover{
+  background-color:var(--secondory-color) ;
+   color: var(--primary-color);
+   border: none;
+   font-weight: 600;  
+}
 
 .btn-content-button{
    width: var(--section-button-width);
@@ -16,6 +21,12 @@
    background-color:var(--secondory-color) ;
    color: var(--white);
    margin: 77px 0 89px 0 ;
+}
+
+.btn-content-button:hover{
+
+   background-color:var(--primary-color);
+   color: var(--white);
 }
 
 .btn-add-to-cart{
