@@ -20,10 +20,11 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
     integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous">
   </script>
-
-  <nav class="navbar navbar-expand-lg navbar-light nav-bar-bg">
+  <!-- <div w3-include-html="nav_bar.html"></div> -->
+  <nav class="navbar navbar-expand-lg navbar-light nav-bar-bg sticky-top">
     <div class="container-fluid nav-bar-margin">
-      <a class="navbar-brand fw-bold" href="#"><img src="images/Logo.png" alt="Logo" class=nav-content-padding"></a>
+      <a class="navbar-brand fw-bold" href="index.html"><img src="images/Logo.png" alt="Logo"
+          class=nav-content-padding"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -31,19 +32,19 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item nav-content-text">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link active" aria-current="page" href="#home-section">Home</a>
           </li>
           <li class="nav-item nav-content-text">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="#about-section">About</a>
           </li>
           <li class="nav-item nav-content-text">
-            <a class="nav-link" href="#">Shop</a>
+            <a class="nav-link" href="#product-section">Shop</a>
           </li>
           <li class="nav-item nav-content-text">
-            <a class="nav-link" href="#">Menu</a>
+            <a class="nav-link" href="#menu-section">Menu</a>
           </li>
           <li class="nav-item nav-content-text">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="#location-section">Contact</a>
           </li>
         </ul>
         <form class="d-flex">
@@ -53,467 +54,144 @@
       </div>
     </div>
   </nav>
-  <div class="container-fluid theme-container">
-    <div class="row section-margin">
-      <div class="col-md-7 col-sm-12 section-col-outline ">
-        <p class="heading-topics">CAFE.COFFEE</p>
-        <p class="sub-heading-topics">Keep your dreams <br />aroused with a cup <br />of coffee</p>
-        <p class="section-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae
-          quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed
-          odit fugiat iusto fuga praesentiumoptio, eaque rerum! Provident similique accusantium nemo autem.</p>
-        <button class="btn btn-content-button " type="submit">Book Now</button>
-      </div>
-      <div class="col-md-5 col-sm-12">
-        <div class="behind-rectangle">
-          <img src="images/coffee-img.png" alt="coffee-img" class="infront-image">
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- SECTION 02 -->
-  <div class="container-fluid section-outline-wrap">
-    <div class="row section02-row-outline">
-      <div class="col-md-5 col-sm-12">
-        <img src="images/cappuchino-img.png" alt="coffee-img" class="infront-image-02">
-        <div class="behind-rectangle-02"></div>
-      </div>
-      <div class="col-md-7 col-sm-12 section-col-outline ">
-        <p class="section02-heading-topics">OUR COFFEE</p>
-        <p class="section02-sub-heading-topics">Choose Your Favourite <br />Coffee</p>
-        <p class="section02-section-content">More than 120+ types of coffee are ready to serve our <br />experienced
-          expert</p>
-        <p class="">
-          <ul class="category-coffee section02-margin">
-            <li>Frappuccino</li>
-            <li>Arabica</li>
-            <li id="cappuccino">Cappuccino</li>
-          </ul> <br />
-        </p>
-        <p class="section02-margin"><button class="btn btn-content-button " type="submit">More Menu</button> </p>
-      </div>
-    </div>
-  </div>
-  <!-- #-#-#-#-##-#-#-#-#-#-#-END OF SECTION 02 #-#-#-#-##-#-#-#-#-#-#- -->
-  <!-- SECTION 03 -->
-  <div class="container-fluid section03-outline-wrap ">
-    <div class="row">
-      <div class="col-md-12 col-sm-12">
-        <p class="section03-sub-heading-topics">Our Featured Products</p>
-        <p class="section03-section-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-          molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborumnumquam blanditiis harum quisquam
-          eius sed odit fugiat iusto fuga praesentiumoptio, eaque rerum! Provident similique accusantium nemo autem.</p>
-      </div>
-    </div>
-    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active "
-          aria-current="true" aria-label="Slide 1"><i class="glyphicon glyphicon-ok"></i></button>
-        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" "
-          aria-label=" Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-      </div>
-      <div class="carousel-inner">
-        <!-- Item 01 -->
-        <div class="carousel-item active">
-          <div class="row justify-content-md-center">
-            <div class="col-md-4 col-sm-12">
-              <div class="card card-outline">
-                <img class="card-img-top" src="images/product-image01.png" alt="Card image">
-                <div class="card-body">
-                  <h4 class="card-title custom-card-title">Cappuccino</h4>
-                  <p class="card-text custom-card-text">
-                    A cappuccino is an espresso-based coffee drink that is traditionally prepared with steamed milk
-                    foam.
-                    <p class="card-rating-outline">
-                      <img src="icon/icon-star.svg" alt="rating-img">
-                      <span class="card-rating">4.5(1k Reviews)</span>
-                    </p>
-                    <span class="card-pricing">Price : $16
-                      <button class="btn  btn-add-to-cart" type="submit"><img src="icon/cart.svg" alt=""> Add to
-                        cart</button>
-                    </span>
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 col-sm-12 justify-content-md-center">
-              <div class="card card-outline">
-                <img class="card-img-top" src="images/product-image02.png" alt="Card image">
-                <div class="card-body">
-                  <h4 class="card-title custom-card-title">Arabica Black coffee</h4>
-                  <p class="card-text custom-card-text">
-                    Arabica coffee is a type of coffee made from the beans of the Coffea arabica plant.<br />
-                    <p class="card-rating-outline">
-                      <img src="icon/icon-star.svg" alt="rating-img">
-                      <span class="card-rating">4.5(1k Reviews)</span>
-                    </p>
-                    <span class="card-pricing">Price : $10
-                      <button class="btn  btn-add-to-cart" type="submit"><img src="icon/cart.svg" alt=""> Add to
-                        cart</button>
-                    </span>
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 col-sm-12 float-md-end">
-              <div class="card card-outline">
-                <img class="card-img-top" src="images/product-image03.png" alt="Card image">
-                <div class="card-body">
-                  <h4 class="card-title custom-card-title">Frappuccino</h4>
-                  <p class="card-text custom-card-text">
-                    Frappuccino is a line of blended iced coffee drinks sold by Starbucks<br />
-                    <p class="card-rating-outline">
-                      <img src="icon/icon-star.svg" alt="rating-img">
-                      <span class="card-rating">4.5(1k Reviews)</span>
-                    </p>
-                    <span class="card-pricing">Price : $20
-                      <button class="btn  btn-add-to-cart" type="submit"><img src="icon/cart.svg" alt=""> Add to
-                        cart</button>
-                    </span>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <!-- Item 02 -->
-          <div class="row justify-content-md-center">
-            <div class="col-md-4 col-sm-12">
-              <div class="card card-outline">
-                <img class="card-img-top card-img" src="images/product-image04.png" alt="Card image">
-                <div class="card-body">
-                  <h4 class="card-title custom-card-title">Latte</h4>
-                  <p class="card-text custom-card-text">
-                    Caffè latte, often shortened to just latte in English, is a coffee drink of Italian origin made with
-                    espresso and steamed milk. <br /><br />
-                    <p class="card-rating-outline">
-                      <img src="icon/icon-star.svg" alt="rating-img">
-                      <span class="card-rating">3.5(1k Reviews)</span>
-                    </p>
-                    <span class="card-pricing">Price : $18
-                      <button class="btn  btn-add-to-cart" type="submit"><img src="icon/cart.svg" alt=""> Add to
-                        cart</button>
-                    </span>
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 col-sm-12 ">
-              <div class="card card-outline">
-                <img class="card-img-top" src="images/product-image05.png" alt="Card image">
-                <div class="card-body">
-                  <h4 class="card-title custom-card-title">Iced Coffee</h4>
-                  <p class="card-text custom-card-text">
-                    Iced coffees become very popular in the summertime in the United States. The recipes do have some
-                    variance, with some locations choosing to interchange milk ..<br />
-                    <p class="card-rating-outline">
-                      <img src="icon/icon-star.svg" alt="rating-img">
-                      <span class="card-rating">4.7(1k Reviews)</span>
-                    </p>
-                  </p>
-                  <span class="card-pricing">Price : $10
-                    <button class="btn  btn-add-to-cart" type="submit"><img src="icon/cart.svg" alt=""> Add to
-                      cart</button>
-                  </span>
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 col-sm-12 float-md-end">
-              <div class="card card-outline">
-                <img class="card-img-top" src="images/product-image06.png" alt="Card image">
-                <div class="card-body">
-                  <h4 class="card-title custom-card-title">Espresso</h4>
-                  <p class="card-text custom-card-text">
-                    Ristretto is an espresso shot. It uses less hot water which creates a sweeter flavor compared to the
-                    bitter taste of a traditional shot of espresso or a doppio.<br />
-                    <p class="card-rating-outline">
-                      <img src="icon/icon-star.svg" alt="rating-img">
-                      <span class="card-rating">4.5(1k Reviews)</span>
-                    </p>
-                    <span class="card-pricing">Price : $20
-                      <button class="btn  btn-add-to-cart" type="submit"><img src="icon/cart.svg" alt=""> Add to
-                        cart</button>
-                    </span>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Item 03 -->
-        <div class="carousel-item">
-          <div class="row justify-content-md-center">
-            <div class="col-md-4 col-sm-12">
-              <div class="card card-outline">
-                <img class="card-img-top" src="images/product-image07.png" alt="Card image">
-                <div class="card-body">
-                  <h4 class="card-title custom-card-title">Frappe</h4>
-                  <p class="card-text custom-card-text">
-                    A coffee frappe is a delicious, iced beverage that has been blended or beaten until it forms a foamy
-                    texture. This type of coffee drink usually comes with ...<br />
-                    <p class="card-rating-outline">
-                      <img src="icon/icon-star.svg" alt="rating-img">
-                      <span class="card-rating">4.5(1k Reviews)</span>
-                    </p>
-                  </p>
-                  <span class="card-pricing">Price : $12
-                    <button class="btn  btn-add-to-cart" type="submit"><img src="icon/cart.svg" alt=""> Add to
-                      cart</button>
-                  </span>
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 col-sm-12 ">
-              <div class="card card-outline">
-                <img class="card-img-top" src="images/product-image08.png" alt="Card image">
-                <div class="card-body">
-                  <h4 class="card-title custom-card-title">Flat white</h4>
-                  <p class="card-text custom-card-text">
-                    A flat white also originates from New Zealand and Australia and is very similar to a cappuccino but
-                    lacks the foam layer and chocolate powder. <br />
-                    <p class="card-rating-outline">
-                      <img src="icon/icon-star.svg" alt="rating-img">
-                      <span class="card-rating">4.5(1k Reviews)</span>
-                    </p>
-                    <span class="card-pricing">Price : $10
-                      <button class="btn  btn-add-to-cart" type="submit"><img src="icon/cart.svg" alt=""> Add to
-                        cart</button>
-                    </span>
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 col-sm-12 float-md-end">
-              <div class="card card-outline">
-                <img class="card-img-top" src="images/product-image09.png" alt="Card image">
-                <div class="card-body">
-                  <h4 class="card-title custom-card-title">Americano</h4>
-                  <p class="card-text custom-card-text">
-                    Americano is a hot coffee drink made with espresso and hot water. It is perhaps one of the most
-                    popular coffee drinks in the USA, after espresso.<br />
-                    <p class="card-rating-outline">
-                      <img src="icon/icon-star.svg" alt="rating-img">
-                      <span class="card-rating">4.5(1k Reviews)</span>
-                    </p>
-                    <span class="card-pricing">Price : $20
-                      <button class="btn  btn-add-to-cart" type="submit"><img src="icon/cart.svg" alt=""> Add to
-                        cart</button>
-                    </span>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-  </div>
-  <!-- #-#-#-#-##-#-#-#-#-#-#-END OF SECTION 03 #-#-#-#-##-#-#-#-#-#-#- -->
-  <!-- SECTION 04 -->
-  <div class="container-fluid section03-outline-wrap ">
-    <div class="row">
-      <div class="col-md-12 col-sm-12">
-        <p class="section03-sub-heading-topics">Why We Are Special</p>
-        <p class="section03-section-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-          molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborumnumquam blanditiis harum quisquam
-          eius sed odit fugiat iusto fuga praesentiumoptio, eaque rerum! Provident similique accusantium nemo autem.</p>
 
-        <div class="row justify-content-md-center">
-          <div class="col-md-4 col-sm-12">
-            <div class="card card-outline">
-              <img class="card-img-top" src="images/making-coffee-image01.png" alt="Card image">
-              <div class="card-body">
-                <h4 class="card-title special-card-title">Fresh Beans</h4>
-                <p class="card-text special-card-text">
-                  Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia.
-                </p>
-              </div>
-            </div>
+  <div id="cover">
+
+    <section id="home-section">
+      <div class="container-fluid theme-container">
+        <div class="row section-margin">
+          <div class="col-md-7 col-sm-12 section-col-outline ">
+            <p class="heading-topics">CAFE.COFFEE</p>
+            <p class="sub-heading-topics">Keep your dreams <br />aroused with a cup <br />of coffee</p>
+            <p class="section-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+              molestiae
+              quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius
+              sed
+              odit fugiat iusto fuga praesentiumoptio, eaque rerum! Provident similique accusantium nemo autem.</p>
+
+            <button class="btn btn-content-button " data-bs-toggle="modal" data-bs-target="#booknowModal">Book
+              Now</button>
+
           </div>
-          <div class="col-md-4 col-sm-12 ">
-            <div class="card card-outline">
-              <img class="card-img-top" src="images/making-coffee-image02.png" alt="Card image">
-              <div class="card-body">
-                <h4 class="card-title special-card-title">Raw Milk</h4>
-                <p class="card-text special-card-text">
-                  Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-12 float-md-end">
-            <div class="card card-outline">
-              <img class="card-img-top" src="images/making-coffee-image03.png" alt="Card image">
-              <div class="card-body">
-                <h4 class="card-title special-card-title">Perfect Blending</h4>
-                <p class="card-text special-card-text">
-                  Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia.
-                </p>
-              </div>
+          <div class="col-md-5 col-sm-12">
+            <div class="behind-rectangle">
+              <img src="images/coffee-img.png" alt="coffee-img" class="infront-image">
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </div>
-  <!-- #-#-#-#-##-#-#-#-#-#-#-END OF SECTION 04 #-#-#-#-##-#-#-#-#-#-#- -->
-  <!-- SECTION 05 -->
-  <div class="container-fluid section05-outline-wrap">
-    <div class="row section-margin">
-      <div class="col-md-7 col-sm-12 section-col-outline ">
-        <p class="heading-topics05">OUR OFFERS</p>
-        <p class="sub-heading-topics">Get 20% Discount of your <br />first order</p>
-        <p class="section-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae
-          quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed
-          odit fugiat iusto fuga praesentiumoptio, eaque rerum! Provident similique accusantium nemo autem.</p>
-      </div>
-      <div class="col-md-5 col-sm-12">
+    </section>
 
-        <div class="behind-rectangle-05">
-          <img src="images/offers.png" alt="coffee-img" class="infront-image-05">
+    <!-- SECTION 02 -->
+    <section id="menu-section">
+
+      <div class="container-fluid section-outline-wrap">
+        <div class="row section02-row-outline">
+          <div class="col-md-5 col-sm-12">
+            <img src="images/cappuchino-img.png" alt="coffee-img" class="infront-image-02">
+            <div class="behind-rectangle-02"></div>
+          </div>
+          <div class="col-md-7 col-sm-12 section-col-outline ">
+            <p class="section02-heading-topics">OUR COFFEE</p>
+            <p class="section02-sub-heading-topics">Choose Your Favourite <br />Coffee</p>
+            <p class="section02-section-content">More than 120+ types of coffee are ready to serve our <br />experienced
+              expert</p>
+            <p class="">
+              <ul class="category-coffee section02-margin">
+                <li>Frappuccino</li>
+                <li>Arabica</li>
+                <li id="cappuccino">Cappuccino</li>
+              </ul> <br />
+            </p>
+            <p class="section02-margin"><button class="btn btn-content-button " type="submit">More Menu</button> </p>
+          </div>
         </div>
       </div>
-    </div>
-  </div>
-  <!-- #-#-#-#-##-#-#-#-#-#-#-END OF SECTION 05 #-#-#-#-##-#-#-#-#-#-#- -->
-  <!-- SECTION 06 -->
-  <div class="container-fluid section03-outline-wrap ">
-    <div class="row">
-      <div class="col-md-12 col-sm-12">
-        <p class="section03-sub-heading-topics">What our customer’s say</p>
-        <p class="section06-section-content justify-content-md-center">Over 10,000 customers! Are you the next one?</p>
+    </section>
+    <!-- #-#-#-#-##-#-#-#-#-#-#-END OF SECTION 02 #-#-#-#-##-#-#-#-#-#-#- -->
 
-        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <section id="product-section">
+
+      <!-- SECTION 03 -->
+      <div class="container-fluid section03-outline-wrap ">
+        <div class="row">
+          <div class="col-md-12 col-sm-12">
+            <p class="section03-sub-heading-topics">Our Featured Products</p>
+            <p class="section03-section-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+              mollitia,
+              molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborumnumquam blanditiis harum
+              quisquam
+              eius sed odit fugiat iusto fuga praesentiumoptio, eaque rerum! Provident similique accusantium nemo autem.
+            </p>
+          </div>
+        </div>
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active "
+              aria-current="true" aria-label="Slide 1"><i class="glyphicon glyphicon-ok"></i></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" "
+              aria-label=" Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+          </div>
           <div class="carousel-inner">
-            <!-- customer comments 01 -->
+            <!-- Item 01 -->
             <div class="carousel-item active">
               <div class="row justify-content-md-center">
                 <div class="col-md-4 col-sm-12">
-                  <div class="card customer-card">
-                    <div class="card-body custom-card-content">
-                      <p class="card-text special-card-text">
-                        "Super cute interior, friendly staff, yummy food and great coffee!"
-                      </p>
-                      <p class="customer-name">Brandy Jensen</p>
-                      <p>
-                        <img src="icon/icon-gray-star.svg" alt="rating-img" class="customer-rating-star">
-                        <img src="icon/icon-gray-star.svg" alt="rating-img" class="customer-rating-star">
-                        <img src="icon/icon-gray-star.svg" alt="rating-img" class="customer-rating-star">
-                        <img src="icon/icon-gray-star.svg" alt="rating-img" class="customer-rating-star">
-                        <img src="icon/icon-gray-star.svg" alt="rating-img" class="customer-rating-star">
-
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-4 col-sm-12 ">
-                  <div class="card customer-card">
-                    <div class="card-body custom-card-content">
-                      <p class="card-text special-card-text">
-                        "Great atmosphere, awesome service, and great drinks!"
-                      </p>
-                      <p class="customer-name">Robyn Christopher</p>
-                      <p>
-                        <img src="icon/icon-gray-star.svg" alt="rating-img" class="customer-rating-star">
-                        <img src="icon/icon-gray-star.svg" alt="rating-img" class="customer-rating-star">
-                        <img src="icon/icon-gray-star.svg" alt="rating-img" class="customer-rating-star">
-                        <img src="icon/icon-gray-star.svg" alt="rating-img" class="customer-rating-star">
-                        <img src="icon/icon-gray-star.svg" alt="rating-img" class="customer-rating-star">
-
+                  <div class="card card-outline">
+                    <img class="card-img-top" src="images/product-image01.png" alt="Card image">
+                    <div class="card-body">
+                      <h4 class="card-title custom-card-title">Cappuccino</h4>
+                      <p class="card-text custom-card-text">
+                        A cappuccino is an espresso-based coffee drink that is traditionally prepared with steamed milk
+                        foam.
+                        <p class="card-rating-outline">
+                          <img src="icon/icon-star.svg" alt="rating-img">
+                          <span class="card-rating">4.5(1k Reviews)</span>
+                        </p>
+                        <span class="card-pricing">Price : $16
+                          <button class="btn  btn-add-to-cart" type="submit"><img src="icon/cart.svg" alt=""> Add to
+                            cart</button>
+                        </span>
                       </p>
                     </div>
                   </div>
                 </div>
-                <div class="col-md-4 col-sm-12 float-md-end">
-                  <div class="card customer-card">
-                    <div class="card-body custom-card-content">
-                      <p class="card-text special-card-text">
-                        "Highly recommend this place over the other coffee options in the area."
-                      </p>
-                      <p class="customer-name">Kristen Javurek</p>
-                      <p>
-                        <img src="icon/icon-gray-star.svg" alt="rating-img" class="customer-rating-star">
-                        <img src="icon/icon-gray-star.svg" alt="rating-img" class="customer-rating-star">
-                        <img src="icon/icon-gray-star.svg" alt="rating-img" class="customer-rating-star">
-                        <img src="icon/icon-gray-star.svg" alt="rating-img" class="customer-rating-star">
-                        <img src="icon/icon-gray-star.svg" alt="rating-img" class="customer-rating-star">
-
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- customer comment 02 -->
-            <div class="carousel-item">
-              <div class="row justify-content-md-center">
-                <div class="col-md-4 col-sm-12">
-                  <div class="card customer-card">
-                    <div class="card-body custom-card-content">
-                      <p class="card-text special-card-text">
-                        "Wonderful coffee shop in Washington. Decor is adorable! Welcoming staff and delicious coffee!
-                        Perfect quick stop for breakfast or great place to sit back and relax.
-                        Enjoying life 1 bite, 1 sip and 1 adorable town at a time! Explore everything"
-                      </p>
-                      <p class="customer-name">Courtney Berry</p>
-                      <p>
-                        <img src="icon/icon-gray-star.svg" alt="rating-img" class="customer-rating-star">
-                        <img src="icon/icon-gray-star.svg" alt="rating-img" class="customer-rating-star">
-                        <img src="icon/icon-gray-star.svg" alt="rating-img" class="customer-rating-star">
-                        <img src="icon/icon-gray-star.svg" alt="rating-img" class="customer-rating-star">
-                        <img src="icon/icon-gray-star.svg" alt="rating-img" class="customer-rating-star">
-
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-4 col-sm-12 ">
-                  <div class="card customer-card">
-                    <div class="card-body custom-card-content">
-                      <p class="card-text special-card-text">
-                        "A must stop if you are in Washington, MO. I had a River Fog and it was the perfect sweetness.
-                        Others got a dark hot chocolate and a S'mores espresso. They serve Park Ave coffee and also have
-                        a food menu. Bring a book (from Neighborhood Reads) and stay a while."
-                      </p>
-                      <p class="customer-name">Thach Ho (Taco)</p>
-                      <p>
-                        <img src="icon/icon-gray-star.svg" alt="rating-img" class="customer-rating-star">
-                        <img src="icon/icon-gray-star.svg" alt="rating-img" class="customer-rating-star">
-                        <img src="icon/icon-gray-star.svg" alt="rating-img" class="customer-rating-star">
-                        <img src="icon/icon-gray-star.svg" alt="rating-img" class="customer-rating-star">
-                        <img src="icon/icon-gray-star.svg" alt="rating-img" class="customer-rating-star">
-
+                <div class="col-md-4 col-sm-12 justify-content-md-center">
+                  <div class="card card-outline">
+                    <img class="card-img-top" src="images/product-image02.png" alt="Card image">
+                    <div class="card-body">
+                      <h4 class="card-title custom-card-title">Arabica Black coffee</h4>
+                      <p class="card-text custom-card-text">
+                        Arabica coffee is a type of coffee made from the beans of the Coffea arabica plant.<br />
+                        <p class="card-rating-outline">
+                          <img src="icon/icon-star.svg" alt="rating-img">
+                          <span class="card-rating">4.5(1k Reviews)</span>
+                        </p>
+                        <span class="card-pricing">Price : $10
+                          <button class="btn  btn-add-to-cart" type="submit"><img src="icon/cart.svg" alt=""> Add to
+                            cart</button>
+                        </span>
                       </p>
                     </div>
                   </div>
                 </div>
                 <div class="col-md-4 col-sm-12 float-md-end">
-                  <div class="card customer-card">
-                    <div class="card-body custom-card-content">
-                      <p class="card-text special-card-text">
-                        "Very cute and low key coffee shop. Good coffee, good food, nice comfy seating and
-                        vintage-feely-setting. Much more comfy seating options and more “homey” vibe than Undergrounds
-                        (Undergrounds is still good, by the way)."
-                      </p>
-                      <p class="customer-name">Blair Radford</p>
-                      <p>
-                        <img src="icon/icon-gray-star.svg" alt="rating-img" class="customer-rating-star">
-                        <img src="icon/icon-gray-star.svg" alt="rating-img" class="customer-rating-star">
-                        <img src="icon/icon-gray-star.svg" alt="rating-img" class="customer-rating-star">
-                        <img src="icon/icon-gray-star.svg" alt="rating-img" class="customer-rating-star">
-                        <img src="icon/icon-gray-star.svg" alt="rating-img" class="customer-rating-star">
-
+                  <div class="card card-outline">
+                    <img class="card-img-top" src="images/product-image03.png" alt="Card image">
+                    <div class="card-body">
+                      <h4 class="card-title custom-card-title">Frappuccino</h4>
+                      <p class="card-text custom-card-text">
+                        Frappuccino is a line of blended iced coffee drinks sold by Starbucks<br />
+                        <p class="card-rating-outline">
+                          <img src="icon/icon-star.svg" alt="rating-img">
+                          <span class="card-rating">4.5(1k Reviews)</span>
+                        </p>
+                        <span class="card-pricing">Price : $20
+                          <button class="btn  btn-add-to-cart" type="submit"><img src="icon/cart.svg" alt=""> Add to
+                            cart</button>
+                        </span>
                       </p>
                     </div>
                   </div>
@@ -521,57 +199,136 @@
               </div>
             </div>
             <div class="carousel-item">
+              <!-- Item 02 -->
               <div class="row justify-content-md-center">
                 <div class="col-md-4 col-sm-12">
-                  <div class="card customer-card">
-                    <div class="card-body custom-card-content">
-                      <p class="card-text special-card-text">
-                        "Super cute interior, friendly staff, yummy food and great coffee!"
-                      </p>
-                      <p class="customer-name">Brandy Jensen</p>
-                      <p>
-                        <img src="icon/icon-gray-star.svg" alt="rating-img" class="customer-rating-star">
-                        <img src="icon/icon-gray-star.svg" alt="rating-img" class="customer-rating-star">
-                        <img src="icon/icon-gray-star.svg" alt="rating-img" class="customer-rating-star">
-                        <img src="icon/icon-gray-star.svg" alt="rating-img" class="customer-rating-star">
-                        <img src="icon/icon-gray-star.svg" alt="rating-img" class="customer-rating-star">
-
+                  <div class="card card-outline">
+                    <img class="card-img-top card-img" src="images/product-image04.png" alt="Card image">
+                    <div class="card-body">
+                      <h4 class="card-title custom-card-title">Latte</h4>
+                      <p class="card-text custom-card-text">
+                        Caffè latte, often shortened to just latte in English, is a coffee drink of Italian origin made
+                        with
+                        espresso and steamed milk. <br /><br />
+                        <p class="card-rating-outline">
+                          <img src="icon/icon-star.svg" alt="rating-img">
+                          <span class="card-rating">3.5(1k Reviews)</span>
+                        </p>
+                        <span class="card-pricing">Price : $18
+                          <button class="btn  btn-add-to-cart" type="submit"><img src="icon/cart.svg" alt=""> Add to
+                            cart</button>
+                        </span>
                       </p>
                     </div>
                   </div>
                 </div>
                 <div class="col-md-4 col-sm-12 ">
-                  <div class="card customer-card">
-                    <div class="card-body custom-card-content">
-                      <p class="card-text special-card-text">
-                        "Great atmosphere, awesome service, and great drinks!"
+                  <div class="card card-outline">
+                    <img class="card-img-top" src="images/product-image05.png" alt="Card image">
+                    <div class="card-body">
+                      <h4 class="card-title custom-card-title">Iced Coffee</h4>
+                      <p class="card-text custom-card-text">
+                        Iced coffees become very popular in the summertime in the United States. The recipes do have
+                        some
+                        variance, with some locations choosing to interchange milk ..<br />
+                        <p class="card-rating-outline">
+                          <img src="icon/icon-star.svg" alt="rating-img">
+                          <span class="card-rating">4.7(1k Reviews)</span>
+                        </p>
                       </p>
-                      <p class="customer-name">Robyn Christopher</p>
-                      <p>
-                        <img src="icon/icon-gray-star.svg" alt="rating-img" class="customer-rating-star">
-                        <img src="icon/icon-gray-star.svg" alt="rating-img" class="customer-rating-star">
-                        <img src="icon/icon-gray-star.svg" alt="rating-img" class="customer-rating-star">
-                        <img src="icon/icon-gray-star.svg" alt="rating-img" class="customer-rating-star">
-                        <img src="icon/icon-gray-star.svg" alt="rating-img" class="customer-rating-star">
-
+                      <span class="card-pricing">Price : $10
+                        <button class="btn  btn-add-to-cart" type="submit"><img src="icon/cart.svg" alt=""> Add to
+                          cart</button>
+                      </span>
                       </p>
                     </div>
                   </div>
                 </div>
                 <div class="col-md-4 col-sm-12 float-md-end">
-                  <div class="card customer-card">
-                    <div class="card-body custom-card-content">
-                      <p class="card-text special-card-text">
-                        "This place was wonderful! Service, food and drinks were all amazing."
+                  <div class="card card-outline">
+                    <img class="card-img-top" src="images/product-image06.png" alt="Card image">
+                    <div class="card-body">
+                      <h4 class="card-title custom-card-title">Espresso</h4>
+                      <p class="card-text custom-card-text">
+                        Ristretto is an espresso shot. It uses less hot water which creates a sweeter flavor compared to
+                        the
+                        bitter taste of a traditional shot of espresso or a doppio.<br />
+                        <p class="card-rating-outline">
+                          <img src="icon/icon-star.svg" alt="rating-img">
+                          <span class="card-rating">4.5(1k Reviews)</span>
+                        </p>
+                        <span class="card-pricing">Price : $20
+                          <button class="btn  btn-add-to-cart" type="submit"><img src="icon/cart.svg" alt=""> Add to
+                            cart</button>
+                        </span>
                       </p>
-                      <p class="customer-name">Ethan</p>
-                      <p>
-                        <img src="icon/icon-gray-star.svg" alt="rating-img" class="customer-rating-star">
-                        <img src="icon/icon-gray-star.svg" alt="rating-img" class="customer-rating-star">
-                        <img src="icon/icon-gray-star.svg" alt="rating-img" class="customer-rating-star">
-                        <img src="icon/icon-gray-star.svg" alt="rating-img" class="customer-rating-star">
-                        <img src="icon/icon-gray-star.svg" alt="rating-img" class="customer-rating-star">
-
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Item 03 -->
+            <div class="carousel-item">
+              <div class="row justify-content-md-center">
+                <div class="col-md-4 col-sm-12">
+                  <div class="card card-outline">
+                    <img class="card-img-top" src="images/product-image07.png" alt="Card image">
+                    <div class="card-body">
+                      <h4 class="card-title custom-card-title">Frappe</h4>
+                      <p class="card-text custom-card-text">
+                        A coffee frappe is a delicious, iced beverage that has been blended or beaten until it forms a
+                        foamy
+                        texture. This type of coffee drink usually comes with ...<br />
+                        <p class="card-rating-outline">
+                          <img src="icon/icon-star.svg" alt="rating-img">
+                          <span class="card-rating">4.5(1k Reviews)</span>
+                        </p>
+                      </p>
+                      <span class="card-pricing">Price : $12
+                        <button class="btn  btn-add-to-cart" type="submit"><img src="icon/cart.svg" alt=""> Add to
+                          cart</button>
+                      </span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 col-sm-12 ">
+                  <div class="card card-outline">
+                    <img class="card-img-top" src="images/product-image08.png" alt="Card image">
+                    <div class="card-body">
+                      <h4 class="card-title custom-card-title">Flat white</h4>
+                      <p class="card-text custom-card-text">
+                        A flat white also originates from New Zealand and Australia and is very similar to a cappuccino
+                        but
+                        lacks the foam layer and chocolate powder. <br />
+                        <p class="card-rating-outline">
+                          <img src="icon/icon-star.svg" alt="rating-img">
+                          <span class="card-rating">4.5(1k Reviews)</span>
+                        </p>
+                        <span class="card-pricing">Price : $10
+                          <button class="btn  btn-add-to-cart" type="submit"><img src="icon/cart.svg" alt=""> Add to
+                            cart</button>
+                        </span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 col-sm-12 float-md-end">
+                  <div class="card card-outline">
+                    <img class="card-img-top" src="images/product-image09.png" alt="Card image">
+                    <div class="card-body">
+                      <h4 class="card-title custom-card-title">Americano</h4>
+                      <p class="card-text custom-card-text">
+                        Americano is a hot coffee drink made with espresso and hot water. It is perhaps one of the most
+                        popular coffee drinks in the USA, after espresso.<br />
+                        <p class="card-rating-outline">
+                          <img src="icon/icon-star.svg" alt="rating-img">
+                          <span class="card-rating">4.5(1k Reviews)</span>
+                        </p>
+                        <span class="card-pricing">Price : $20
+                          <button class="btn  btn-add-to-cart" type="submit"><img src="icon/cart.svg" alt=""> Add to
+                            cart</button>
+                        </span>
                       </p>
                     </div>
                   </div>
@@ -579,77 +336,466 @@
               </div>
             </div>
           </div>
-          <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
             data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
           </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
             data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
-          </button> -->
+          </button>
         </div>
-        
+      </div>
+      <!-- #-#-#-#-##-#-#-#-#-#-#-END OF SECTION 03 #-#-#-#-##-#-#-#-#-#-#- -->
+    </section>
+
+    <section id="about-section">
+
+      <!-- SECTION 04 -->
+      <div class="container-fluid section03-outline-wrap ">
+        <div class="row">
+          <div class="col-md-12 col-sm-12">
+            <p class="section03-sub-heading-topics">Why We Are Special</p>
+            <p class="section03-section-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+              mollitia,
+              molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborumnumquam blanditiis harum
+              quisquam
+              eius sed odit fugiat iusto fuga praesentiumoptio, eaque rerum! Provident similique accusantium nemo autem.
+            </p>
+
+            <div class="row justify-content-md-center">
+              <div class="col-md-4 col-sm-12">
+                <div class="card card-outline">
+                  <img class="card-img-top" src="images/making-coffee-image01.png" alt="Card image">
+                  <div class="card-body">
+                    <h4 class="card-title special-card-title">Fresh Beans</h4>
+                    <p class="card-text special-card-text">
+                      Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-12 ">
+                <div class="card card-outline">
+                  <img class="card-img-top" src="images/making-coffee-image02.png" alt="Card image">
+                  <div class="card-body">
+                    <h4 class="card-title special-card-title">Raw Milk</h4>
+                    <p class="card-text special-card-text">
+                      Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-12 float-md-end">
+                <div class="card card-outline">
+                  <img class="card-img-top" src="images/making-coffee-image03.png" alt="Card image">
+                  <div class="card-body">
+                    <h4 class="card-title special-card-title">Perfect Blending</h4>
+                    <p class="card-text special-card-text">
+                      Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- #-#-#-#-##-#-#-#-#-#-#-END OF SECTION 04 #-#-#-#-##-#-#-#-#-#-#- -->
+      <!-- SECTION 05 -->
+      <div class="container-fluid section05-outline-wrap">
+        <div class="row section-margin">
+          <div class="col-md-7 col-sm-12 section-col-outline ">
+            <p class="heading-topics05">OUR OFFERS</p>
+            <p class="sub-heading-topics">Get 20% Discount of your <br />first order</p>
+            <p class="section-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+              molestiae
+              quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius
+              sed
+              odit fugiat iusto fuga praesentiumoptio, eaque rerum! Provident similique accusantium nemo autem.</p>
+          </div>
+          <div class="col-md-5 col-sm-12">
+
+            <div class="behind-rectangle-05">
+              <img src="images/offers.png" alt="coffee-img" class="infront-image-05">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- #-#-#-#-##-#-#-#-#-#-#-END OF SECTION 05 #-#-#-#-##-#-#-#-#-#-#- -->
+      <!-- SECTION 06 -->
+      <div class="container-fluid section03-outline-wrap ">
+        <div class="row">
+          <div class="col-md-12 col-sm-12">
+            <p class="section03-sub-heading-topics">What our customer’s say</p>
+            <p class="section06-section-content justify-content-md-center">Over 10,000 customers! Are you the next one?
+            </p>
+
+            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <!-- customer comments 01 -->
+                <div class="carousel-item active">
+                  <div class="row justify-content-md-center">
+                    <div class="col-md-4 col-sm-12">
+                      <div class="card customer-card">
+                        <div class="card-body custom-card-content">
+                          <p class="card-text special-card-text">
+                            "Super cute interior, friendly staff, yummy food and great coffee!"
+                          </p>
+                          <div class="customer-info">
+                            <p class="customer-name">Brandy Jensen</p>
+                          </div>
+                          <p class="customer-rating-star">
+                            <img src="icon/icon-gray-star.svg" alt="rating-img">
+                            <img src="icon/icon-gray-star.svg" alt="rating-img">
+                            <img src="icon/icon-gray-star.svg" alt="rating-img">
+                            <img src="icon/icon-gray-star.svg" alt="rating-img">
+                            <img src="icon/icon-gray-star.svg" alt="rating-img">
+
+                          </p>
+
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12 ">
+                      <div class="card customer-card">
+                        <div class="card-body custom-card-content">
+                          <p class="card-text special-card-text">
+                            "Great atmosphere, awesome service, and great drinks!"
+                          </p>
+                          <div class="customer-info">
+                            <p class="customer-name">Robyn Christopher</p>
+                          </div>
+                          <p class="customer-rating-star">
+                            <img src="icon/icon-gray-star.svg" alt="rating-img">
+                            <img src="icon/icon-gray-star.svg" alt="rating-img">
+                            <img src="icon/icon-gray-star.svg" alt="rating-img">
+                            <img src="icon/icon-gray-star.svg" alt="rating-img">
+                            <img src="icon/icon-gray-star.svg" alt="rating-img">
+
+                          </p>
+
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12 float-md-end">
+                      <div class="card customer-card">
+                        <div class="card-body custom-card-content">
+                          <p class="card-text special-card-text">
+                            "Highly recommend this place over the other coffee options in the area."
+                          </p>
+                          <div class="customer-info">
+                            <p class="customer-name">Kristen Javurek</p>
+                          </div>
+                          <p class="customer-rating-star">
+                            <img src="icon/icon-gray-star.svg" alt="rating-img">
+                            <img src="icon/icon-gray-star.svg" alt="rating-img">
+                            <img src="icon/icon-gray-star.svg" alt="rating-img">
+                            <img src="icon/icon-gray-star.svg" alt="rating-img">
+                            <img src="icon/icon-gray-star.svg" alt="rating-img">
+
+                          </p>
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- customer comment 02 -->
+                <div class="carousel-item">
+                  <div class="row justify-content-md-center">
+                    <div class="col-md-4 col-sm-12">
+                      <div class="card customer-card">
+                        <div class="card-body custom-card-content">
+                          <div class="customer-comment">
+                            <p class="card-text special-card-text">
+                              "Wonderful coffee shop in Washington. Decor is adorable! Welcoming staff and delicious
+                              coffee!
+                              Perfect quick stop for breakfast or great place to sit back and relax.
+                              Enjoying life 1 bite, 1 sip and 1 adorable town at a time! Explore everything"<br /><br />
+                            </p>
+                          </div>
+                          <div class="customer-info">
+                            <p class="customer-name">Courtney Berry</p>
+                          </div>
+                          <p class="customer-rating-star">
+                            <img src="icon/icon-gray-star.svg" alt="rating-img">
+                            <img src="icon/icon-gray-star.svg" alt="rating-img">
+                            <img src="icon/icon-gray-star.svg" alt="rating-img">
+                            <img src="icon/icon-gray-star.svg" alt="rating-img">
+                            <img src="icon/icon-gray-star.svg" alt="rating-img">
+
+                          </p>
+
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12 ">
+                      <div class="card customer-card">
+                        <div class="card-body custom-card-content">
+                          <div class="customer-comment">
+                            <p class="card-text special-card-text">
+                              "A must stop if you are in Washington, MO. I had a River Fog and it was the perfect
+                              sweetness.
+                              Others got a dark hot chocolate and a S'mores espresso. They serve Park Ave coffee and
+                              also
+                              have
+                              a food menu. Bring a book (from Neighborhood Reads) and stay a while."
+                            </p>
+                          </div>
+                          <div class="customer-info">
+
+                            <p class="customer-name">Thach Ho (Taco)</p>
+                          </div>
+                          <p class="customer-rating-star">
+                            <img src="icon/icon-gray-star.svg" alt="rating-img">
+                            <img src="icon/icon-gray-star.svg" alt="rating-img">
+                            <img src="icon/icon-gray-star.svg" alt="rating-img">
+                            <img src="icon/icon-gray-star.svg" alt="rating-img">
+                            <img src="icon/icon-gray-star.svg" alt="rating-img">
+
+                          </p>
+
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12 float-md-end">
+                      <div class="card customer-card">
+                        <div class="card-body custom-card-content">
+                          <div class="customer-comment">
+
+                            <p class="card-text special-card-text">
+                              "Very cute and low key coffee shop. Good coffee, good food, nice comfy seating and
+                              vintage-feely-setting. Much more comfy seating options and more “homey” vibe than
+                              Undergrounds
+                              (Undergrounds is still good, by the way)."<br /><br />
+                            </p>
+                          </div>
+                          <div class="customer-info">
+
+                            <p class="customer-name">Blair Radford</p>
+                          </div>
+                          <p class="customer-rating-star">
+                            <img src="icon/icon-gray-star.svg" alt="rating-img">
+                            <img src="icon/icon-gray-star.svg" alt="rating-img">
+                            <img src="icon/icon-gray-star.svg" alt="rating-img">
+                            <img src="icon/icon-gray-star.svg" alt="rating-img">
+                            <img src="icon/icon-gray-star.svg" alt="rating-img">
+
+                          </p>
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- customer comment 03 -->
+                <div class="carousel-item">
+                  <div class="row justify-content-md-center">
+                    <div class="col-md-4 col-sm-12">
+                      <div class="card customer-card">
+                        <div class="card-body custom-card-content">
+                          <p class="card-text special-card-text">
+                            "Super cute interior, friendly staff, yummy food and great coffee!"
+                          </p>
+                          <div class="customer-info">
+
+                            <p class="customer-name">Brandy Jensen</p>
+                          </div>
+
+                          <p class="customer-rating-star">
+                            <img src="icon/icon-gray-star.svg" alt="rating-img">
+                            <img src="icon/icon-gray-star.svg" alt="rating-img">
+                            <img src="icon/icon-gray-star.svg" alt="rating-img">
+                            <img src="icon/icon-gray-star.svg" alt="rating-img">
+                            <img src="icon/icon-gray-star.svg" alt="rating-img">
+
+                          </p>
+
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12 ">
+                      <div class="card customer-card">
+                        <div class="card-body custom-card-content">
+                          <p class="card-text special-card-text">
+                            "Great atmosphere, awesome service, and great drinks!"
+                          </p>
+                          <div class="customer-info">
+                            <p class="customer-name">Robyn Christopher</p>
+                          </div>
+                          <p class="customer-rating-star">
+                            <img src="icon/icon-gray-star.svg" alt="rating-img">
+                            <img src="icon/icon-gray-star.svg" alt="rating-img">
+                            <img src="icon/icon-gray-star.svg" alt="rating-img">
+                            <img src="icon/icon-gray-star.svg" alt="rating-img">
+                            <img src="icon/icon-gray-star.svg" alt="rating-img">
+
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12 float-md-end">
+                      <div class="card customer-card">
+                        <div class="card-body custom-card-content">
+                          <p class="card-text special-card-text">
+                            "This place was wonderful! Service, food and drinks were all amazing."
+                          </p>
+                          <div class="customer-info">
+                            <p class="customer-name">Ethan</p>
+                          </div>
+                          <span class="customer-rating-star">
+                            <img src="icon/icon-gray-star.svg" alt="rating-img">
+                            <img src="icon/icon-gray-star.svg" alt="rating-img">
+                            <img src="icon/icon-gray-star.svg" alt="rating-img">
+                            <img src="icon/icon-gray-star.svg" alt="rating-img">
+                            <img src="icon/icon-gray-star.svg" alt="rating-img">
+
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <!-- #-#-#-#-##-#-#-#-#-#-#-END OF SECTION 06 #-#-#-#-##-#-#-#-#-#-#- -->
+    </section>
+    <section id="location-section">
+      <!-- SECTION 07 -->
+      <div class="container-fluid section07-outline-wrap">
+        <div class="row">
+          <div class="col-md-12 col-sm-12">
+            <p class="section03-sub-heading-topics">Our Location</p>
+            <p class="section06-section-content justify-content-md-center">2 E Fifth St, Washington, MO 63090, United
+              States
+            </p>
+          </div>
+        </div>
+        <img class="card-img-top" src="images/image-location.png" alt="Card image">
+      </div>
+      <!-- #-#-#-#-##-#-#-#-#-#-#-END OF SECTION 07 #-#-#-#-##-#-#-#-#-#-#- -->
+      <!-- FOOTER-->
+
+      <div class="container-fluid ">
+        <div class="row footer-wrap">
+          <div class="col-md-3 col-sm-3">
+
+            <p class="footer-name">Cafe.Coffee</p>
+            <p class="footer-address">2 E Fifth St, Washington, </p>
+            <p class="footer-address">MO 63090, United States</p>
+            <p><a href="#index.html"><img src="images/Logo.png" alt="Logo" class=nav-content-padding"></a></p>
+
+          </div>
+          <div class="col-md-3 col-sm-3">
+            <p class="footer-content">Working Hours</p>
+            <p class="footer-working-days">Monday - Friday</p>
+            <p class="footer-working-info">7.00 am - 9.00pm</p>
+            <p class="footer-working-days">Saturday - Sunday</p>
+            <p class="footer-working-info">10.00 am - 11.00pm</p>
+
+          </div>
+          <div class="col-md-3 col-sm-3">
+            <p class="footer-content">Contact Us</p>
+            <p class="footer-contact">Email</p>
+            <p class="footer-contact-info">cafe.coffee@gmail.com</p>
+            <p class="footer-contact">Contact</p>
+            <p class="footer-contact-info">+1 636-432-5450</p>
+
+          </div>
+          <div class="col-md-3 col-sm-3">
+            <p class="footer-content">Follow Us</p>
+            <span class="icon-social-media"><a href=""><img src="icon/icon-facebook.svg" alt="icon-facebook"></a></span>
+            <span class="icon-social-media"><a href=""><img src="icon/icon-instagram.svg"
+                  alt="icon-instagram"></a></span>
+            <span class="icon-social-media"><a href=""><img src="icon/icon-twitter.svg" alt="icon-twitter"></a></span>
+            <span class=""><a href=""><img src="icon/icon-linkedin.svg" alt="icon-linkedin"></a></span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <div class="container-fluid">
+      <div class="row footer-copy-right">
+        <p>cafe.coffee 2023. All rights reserved</p>
+      </div>
+    </div>
+    <!-- #-#-#-#-##-#-#-#-#-#-#-END OF FOOTER #-#-#-#-##-#-#-#-#-#-#- -->
+  </div>
+  <!-- #-#-#-#-##-#-#-#-#-#-#-MODEL FOR BOOK NOW #-#-#-#-##-#-#-#-#-#-#- -->
+  <!-- The Modal -->
+  <div class="modal" id="booknowModal">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Book Now</h4>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+
+        <!-- Modal body -->
+        <div class="modal-body">
+          <form action="/action_page.php">
+            <div class="mb-3 mt-3">
+              <label for="name" class="form-label">Name:</label>
+              <input type="text" class="form-control" id="name" placeholder="Enter name" name="name">
+            </div>
+            <div class="mb-3 mt-3">
+              <label for="email" class="form-label">Email:</label>
+              <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+            </div>
+            <div class="mb-3 mt-3">
+              <label for="contact" class="form-label">Contact No:</label>
+              <input type="text" class="form-control" id="contact" placeholder="Enter contact" name="contact">
+            </div>
+            <div class="mb-3 mt-3 ">
+              <label for="date" class="form-label">Date:</label>
+              <input type="date" class="form-control-sm" id="re-date" placeholder="Enter Date" name="re-date">
+              <span class="add-margin"></span>
+              <label for="time" class="form-label ">Time:</label>
+              <input type="time" class="form-control-sm" id="re-time" placeholder="Enter time" name="re-time">
+              <span class="add-margin"></span>
+              <label for="party-size" class="form-label">Party Size:</label>
+              <input type="number" class="form-control-sm" id="party-size" placeholder="Enter party-size" name="party-size">
+            
+            </div>
+             <div class="mb-3 mt-3">
+              <label for="special-requests" class="form-label">Party Size:</label>
+              <textarea class="form-control" id="special-requests" placeholder="Enter special-requests" name="special-requests"></textarea>
+            </div>
+
+            <button class="btn btn-outline-dark btn-signup" type="submit">Submit</button>
+            <button type="reset" class="btn btn-outline-dark btn-signup">Reset</button>
+          </form>
+        </div>
+
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+        </div>
+
       </div>
     </div>
   </div>
-  <!-- #-#-#-#-##-#-#-#-#-#-#-END OF SECTION 06 #-#-#-#-##-#-#-#-#-#-#- -->
-  <!-- SECTION 07 -->
-  <div class="container-fluid section07-outline-wrap">
-    <div class="row">
-      <div class="col-md-12 col-sm-12">
-        <p class="section03-sub-heading-topics">Our Location</p>
-        <p class="section06-section-content justify-content-md-center">2 E Fifth St, Washington, MO 63090, United States
-        </p>
-      </div>
-    </div>
-    <img class="card-img-top" src="images/image-location.png" alt="Card image">
-  </div>
-  <!-- #-#-#-#-##-#-#-#-#-#-#-END OF SECTION 07 #-#-#-#-##-#-#-#-#-#-#- -->
-  <!-- FOOTER-->
-  <div class="container-fluid ">
-    <div class="row footer-wrap">
-      <div class="col-md-3 col-sm-3">
 
-        <p class="footer-name">Cafe.Coffee</p>
-        <p class="footer-address">2 E Fifth St, Washington, </p>
-        <p class="footer-address">MO 63090, United States</p>
-        <p><a href="#index.html"><img src="images/Logo.png" alt="Logo" class=nav-content-padding"></a></p>
-
-      </div>
-      <div class="col-md-3 col-sm-3">
-        <p class="footer-content">Working Hours</p>
-        <p class="footer-working-days">Monday - Friday</p>
-        <p class="footer-working-info">7.00 am - 9.00pm</p>
-        <p class="footer-working-days">Saturday - Sunday</p>
-        <p class="footer-working-info">10.00 am - 11.00pm</p>
-
-      </div>
-      <div class="col-md-3 col-sm-3">
-        <p class="footer-content">Contact Us</p>
-        <p class="footer-contact">Email</p>
-        <p class="footer-contact-info">cafe.coffee@gmail.com</p>
-        <p class="footer-contact">Contact</p>
-        <p class="footer-contact-info">+1 636-432-5450</p>
-
-      </div>
-      <div class="col-md-3 col-sm-3">
-        <p class="footer-content">Follow Us</p>
-        <span class="icon-social-media"><a href=""><img src="icon/icon-facebook.svg" alt="icon-facebook"></a></span>
-        <span class="icon-social-media"><a href=""><img src="icon/icon-instagram.svg" alt="icon-instagram"></a></span>
-        <span class="icon-social-media"><a href=""><img src="icon/icon-twitter.svg" alt="icon-twitter"></a></span>
-        <span class=""><a href=""><img src="icon/icon-linkedin.svg" alt="icon-linkedin"></a></span>
-      </div>
-    </div>
-
-  </div>
-  <div class="container-fluid">
-    <div class="row footer-copy-right">
-      <p>cafe.coffee 2023. All rights reserved</p>
-    </div>
-  </div>
-  <!-- #-#-#-#-##-#-#-#-#-#-#-END OF FOOTER #-#-#-#-##-#-#-#-#-#-#- -->
+  </script>
 </body>
 
 </html>

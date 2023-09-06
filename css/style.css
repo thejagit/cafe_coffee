@@ -27,7 +27,13 @@
 }
 
 body {margin: 0;}
+#cover{
+  z-index: -1;
+}
 
+.nav{
+  z-index: 99;
+}
 .theme-container {
     padding:0 7.375em;
     margin-top: 4.25em;
@@ -93,6 +99,10 @@ body {margin: 0;}
 
 .section-margin{
   margin-bottom: 89px;
+}
+
+.add-margin{
+  margin-right: 60px;
 }
  /*=-=-=-=-=-=-=-=-=-=-=-=-=-=- SECTION 02  =-=-=-=-=-=-=-=-=-=-=-=-=-=-*/
 .section-outline-wrap{
@@ -353,10 +363,7 @@ margin-top: 22px;
   border-radius:0 0 115px 0;
   height: 100%;
 }
-/* .carousel-control-prev-icon{
-  background-color: #c593d8;
- 
-} */
+
 .customer-name{
   font-size: 1.2em;
   color: rgba(var(--black), .8);
@@ -364,11 +371,20 @@ margin-top: 22px;
   margin-top: 84px;
 }
 
-svg .customer-rating-star {
+.customer-rating-star {
  margin-bottom: 35px;
 }
-
-
+.customer-comment{
+  display: flex; /* Use flexbox to align elements horizontally */
+  justify-content: space-between; /* Space evenly between elements */
+  content:;
+}
+.customer-info {
+  display: flex; /* Use flexbox to align elements horizontally */
+  justify-content: space-between; /* Space evenly between elements */
+  align-items: center; /* Center vertically */
+  margin-top: 84px; /* Add margin for spacing if needed */
+}
 .section06-section-content{
   margin: 0 18%;
   margin-top: 76px;
